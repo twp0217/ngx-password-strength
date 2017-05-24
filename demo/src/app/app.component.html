@@ -1,0 +1,9 @@
+<div class="container" style="padding-top: 20px;">
+  <div class="panel panel-default">
+    <div class="panel-heading">密码强度</div>
+    <div class="panel-body">
+      <input type="text" class="form-control" placeholder="请输入密码" [(ngModel)]="password">
+      <ngx-password-strength [checkPassword]="password"></ngx-password-strength>
+    </div>
+  </div>
+</div>
